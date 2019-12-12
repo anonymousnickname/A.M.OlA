@@ -1,0 +1,25 @@
+header.header
+	.header__top
+		.container
+			.contacts
+				a.contact(href="tel:+48577236109")
+					img.contact__image(src="../images/phone-icon.png" alt="Phone:" title="Phone")
+					span.contact__text +48577236109
+
+				a.contact(href="mailto:amola@gmail.com")
+					img.contact__image(src="../images/mail-icon.png" alt="Mail:" title="Mail")
+					span.contact__text amola@gmail.com
+
+				a.contact(href="https://www.facebook.com/profile.php?id=100009375220849&ref=bookmarks")
+					img.contact__image(src="../images/facebook-icon.png" alt="Facebook:" title="Facebook")
+	.container
+		.header__bottom
+			.logo: img.logo__image(src="../images/logo-nav.png" alt="AMOLA" title="A.M.OlA")
+			nav.nav
+				ul.nav__list
+					li.nav__item: a(class="nav__link active" href="#") Home
+					li.nav__item: a.nav__link(href="#") O firmie
+					li.nav__item: a.nav__link(href="#") Rodzaje pracy
+					li.nav__item: a.nav__link(href="#") Realizacje
+					li.nav__item: a.nav__link(href="#") Kontakt
+		
