@@ -1,0 +1,12 @@
+.logo {
+    width: 100%;
+    background: #e3000e;
+    display: flex;
+    justify-content: center;
+
+    &__image {
+        padding: 5px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
